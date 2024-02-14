@@ -1,0 +1,52 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body,
+  div,
+  dl,
+  dt,
+  dd,
+  ul,
+  ol,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  pre,
+  form,
+  fieldset,
+  input,
+  textarea,
+  p,
+  blockquote,
+  th,
+  td {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    /* colors */
+    --yellow: hsl(47,88%, 63%);
+    --white: hsl(0,0%, 100%);
+    --grey: hsl(0,0%, 50%);
+    --black: hsl(0, 0%, 7%);
+
+
+  }
+
+  body {
+    font-size: 16px;
+    background-color: var(--yellow);
+  }
