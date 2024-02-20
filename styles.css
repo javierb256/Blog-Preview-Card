@@ -1,60 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
-    box-sizing: border-box;
-  }
-  
-  body,
-  div,
-  dl,
-  dt,
-  dd,
-  ul,
-  ol,
-  li,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  pre,
-  form,
-  fieldset,
-  input,
-  textarea,
-  p,
-  blockquote,
-  th,
-  td {
-    margin: 0;
-    padding: 0;
-  }
-  
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  :root {
-    /* colors */
-    --yellow: hsl(47,88%, 63%);
-    --white: hsl(0,0%, 100%);
-    --grey: hsl(0,0%, 50%);
-    --black: hsl(0, 0%, 7%);
+  box-sizing: border-box;
+}
 
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
 
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    font-size: 16px;
-    background-color: var(--yellow);
-    font-family: "Figtree", sans-serif;
-    height: 100vh;
-  }
+:root {
+  /* colors */
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+}
 
-  .attribution {
-    color: red;
-    position: relative;
-  }
+body {
+  font-size: 16px;
+  background-color: var(--yellow);
+  font-family: "Figtree", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: 10px 8px black;
+  position: relative;
+}
+
+.illustration {
+  border-radius: 25px;
+}
+
+.image-container {
+  border-radius: 19px;
+}
+
+.warning {
+  background-color: var(--yellow);
+  color: black;
+}
+
+.published {
+  font-size: 0.8rem;
+}
+
+.color-grey {
+  color: var(--grey);
+  font-size: 0.9rem;
+}
+
+.avatar {
+  width: 2rem;
+  margin-right: 0.8rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

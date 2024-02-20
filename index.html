@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <div class="card mx-3 pt-3">
-    <img class="card-img-top px-3" src="./assets/images/illustration-article.svg" alt="article illustration">
-    <div class="card-body">
-      <span class="badge badge-warning">Learning</span>
-      <h2>Published 21 Dec 2023</h2>
-      <h1>HTML & CSS foundations</h1>
-      <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
-      <div class="d-flex align-items-center">
-        <img src="./assets/images/image-avatar.webp" alt="blog writer picture">
-        <p class="ml-4">Greg Hooper</p>
+    <title>Frontend Mentor | Blog preview card</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="card border-secondary mx-4 pt-3">
+      <img
+        class="card-img-top px-3 py-2 illustration"
+        src="./assets/images/illustration-article.svg"
+        alt="article illustration"
+      />
+      <div class="card-body">
+        <span class="badge py-2 px-3 fs-6 fw-bold warning">Learning</span>
+        <p class="fw-semibold mt-3 published">Published 21 Dec 2023</p>
+        <h1 class="fw-bold fs-4 mt-3">HTML & CSS foundations</h1>
+        <p class="mt-3 mb-4 color-grey fw-semibold">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="d-flex align-items-center">
+          <img
+            class="avatar"
+            src="./assets/images/image-avatar.webp"
+            alt="blog writer picture"
+          />
+          <p class="fw-bold">Greg Hooper</p>
+        </div>
       </div>
     </div>
-  </div>
 
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <div class="attribution text-center">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Javier Barrera</a>.
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
