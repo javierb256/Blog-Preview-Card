@@ -66,8 +66,9 @@ body {
   border-radius: 25px;
 }
 
-.image-container {
-  border-radius: 19px;
+.title:hover {
+  color: var(--yellow);
+  cursor: pointer;
 }
 
 .warning {
