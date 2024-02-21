@@ -98,3 +98,20 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 481px) {
+  .card {
+    width: 65vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .card {
+    width: 45vw;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .card {
+    width: 35vw;
+    max-width: 400px;
+  }
+}
